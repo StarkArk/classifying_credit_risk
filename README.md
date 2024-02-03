@@ -31,7 +31,7 @@ Analysis: [Notebook](https://github.com/StarkArk/classifying_credit_risk/blob/ma
 
 #### **---Balanced Accuracy---**
 
-  Sampled: 95.2%
+  Sampled: 95.2% <br>
   OverSampled: 99.37%
 
 #### **---Confusion Martrices---**
