@@ -77,13 +77,16 @@ KEY:
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-The logistic regression model predictions for healthy loans were accurate with relatively few false positives(Precision 1.00) and false negatives(Recall .99). 
 
-**Ordinary Sampled Method:** The predictions for high risk loans are less accurate with relatively more false positives(Precision .85) and false negatives(Recall .91). Ideally, we would 
-like to reduce the false negative for high risk loans so that we find more of the high-risk loans that Banks would be best off avoiding
+**Healthy Loans:** The model predictions, sampled and oversampled, were accurate with relatively few false positives(Precision 1.00) and false negatives(Recall .99). 
+
+**Ordinary Sampled Method:** The predictions for high risk loans were less accurate with relatively more false positives(Precision .85) and false negatives(Recall .91). Ideally, we would 
+like to reduce the false negatives for high risk loans to find more of the high-risk loans that lenders would prefer to avoid.
 
 **OverSampled Method:** Oversampling significantly reduced the # of false negatives, from 56 down to 4. Successfully detecting more high-risk loans compared to the less balanced original 
 training sample (615 vs 563). False positives, loans eroneously labeled 'high-risk', did increase. This is acceptable given that a bank should be more focused on avoiding/reducing bad 
 loans rather than picking up a marginal number of 'healthy' loans.
+
+**Overall:** The OverSampled Method was superior, with a higher balanced accuracy (99.4% vs 95.2%) and fewer False Negatives (4 vs 56), correctly labelling more of the high risk loans 
+(615 vs 563).
 
