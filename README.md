@@ -37,17 +37,17 @@ Analysis: [Notebook](https://github.com/StarkArk/classifying_credit_risk/blob/ma
 #### **---Confusion Martrices---**
 
 KEY:
-[['True Positive', 'False Positive']
+[['True Positive', 'False Positive'] <br>
  ['False Negative', 'True Positive']]
 
   ---Sampled---
 
-[[18663,   102]
+[[18663,   102] <br>
  [   56,   563]]
 
   ---OverSampled---
 
-[[18649,   116]
+[[18649,   116] <br>
  [    4,   615]]
 
 #### **---Classification Tables---**
