@@ -3,8 +3,8 @@
 ## Overview of the Analysis
 
 For Banks and Lenders, determining whether a potential borrower will repay when given a loan is key. Defaults rates have tended to be [around 3% in recent years](https://www.milliman.com/en/insight/milliman-mortgage-default-index-2023-q3). 
-Lender's are always striving to improve and reduce the number of high-risk loans they extend. Generally, reducing the default rate can be beneficial to both a bank's profitability and
-borrower actual interest rates.
+Lender's are always striving to improve and reduce the number of high-risk loans they extend. Generally, reducing the default rate can be beneficial to both a bank's profitability and a
+borrower's actual interest rates.
 
 In this project I look at some labeled loan data that includes high risk and healthy loans. The objective is to train a model to effectively detect 'bad' loans from
 features that a bank might be presented with prior to extending a new loan.  
@@ -37,43 +37,43 @@ Analysis: [Notebook](https://github.com/StarkArk/classifying_credit_risk/blob/ma
 #### **---Confusion Martrices---**
 
 KEY:
-[['True Positive', 'False Positive'
+[['True Positive', 'False Positive']
  ['False Negative', 'True Positive']]
 
   ---Sampled---
 
-[[18663   102]
- [   56   563]]
+[[18663,   102]
+ [   56,   563]]
 
   ---OverSampled---
 
-[[18649   116]
- [    4   615]]
+[[18649,   116]
+ [    4,   615]]
 
 #### **---Classification Tables---**
 
   ---Sampled---
 
-                 precision    recall  f1-score   support
+                      precision    recall  f1-score   support
 
-  healthy loans       1.00      0.99      1.00     18765
-high-risk loans       0.85      0.91      0.88       619
+       healthy loans       1.00      0.99      1.00     18765
+     high-risk loans       0.85      0.91      0.88       619
 
-       accuracy                           0.99     19384
-      macro avg       0.92      0.95      0.94     19384
-   weighted avg       0.99      0.99      0.99     19384
+            accuracy                           0.99     19384
+           macro avg       0.92      0.95      0.94     19384
+        weighted avg       0.99      0.99      0.99     19384
 
 
   ---OverSampled---
 
-                 precision    recall  f1-score   support
+                      precision    recall  f1-score   support
 
-  healthy loans       1.00      0.99      1.00     18765
-high-risk loans       0.84      0.99      0.91       619
+       healthy loans       1.00      0.99      1.00     18765
+     high-risk loans       0.84      0.99      0.91       619
 
-       accuracy                           0.99     19384
-      macro avg       0.92      0.99      0.95     19384
-   weighted avg       0.99      0.99      0.99     19384
+            accuracy                           0.99     19384
+           macro avg       0.92      0.99      0.95     19384
+        weighted avg       0.99      0.99      0.99     19384
 
 ## Summary
 
