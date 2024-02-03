@@ -6,41 +6,35 @@ For Banks and Lenders, determining whether a potential borrower will repay when 
 Lender's are always striving to improve and reduce the number of high-risk loans they extend. Generally, reducing the default rate can be beneficial to both a bank's profitability and
 borrower actual interest rates.
 
-In this project I look at some labelled loan data that includes high risk and healthy loans. The objective is to train a model to effectively detect 'bad' loans from
+In this project I look at some labeled loan data that includes high risk and healthy loans. The objective is to train a model to effectively detect 'bad' loans from
 features that a bank might be presented with prior to extending a new loan.  
 
 ## Data and Analysis
 
 The lending data includes information on the loan size, interest rate, income, debt to income, number of borrower accounts, number of derogatory marks(such as missed payments, 
-bankruptcies,..., etc.), total debt for the borrower, and the labelled data 'loan status'(high risk - 1, healthy - 0).
+bankruptcies,..., etc.), total debt for the borrower, and the labeled data 'loan status'(high risk - 1, healthy - 0).
 
 [Lending Data](https://github.com/StarkArk/classifying_credit_risk/blob/main/Credit_Risk/lending_data.csv)
 
 In the data:
 	75,036 are healthy loans
-	2,500 are labelled high-risk 
+	2,500 are labeled high-risk 
 
-Logistic Regression was used to train the prediction model. We tested two resampling techniques, one that took the labelled data in the proportion that it had in the sample and another
+Logistic Regression was used to train the prediction model. We tested two resampling techniques, one that took the labeled data in the proportion that it had in the sample and another
 that oversampled the 'high risk' loan data.
 
-Analysis: [Notebook]()
-
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+Analysis: [Notebook](https://github.com/StarkArk/classifying_credit_risk/blob/main/Credit_Risk/credit_risk_classification.ipynb)
 
 ## Results
 
 ### Logistic Regression Model scores comparing Sampled and Oversampled techniques.
 
----Balanced Accuracy---
+#### **---Balanced Accuracy---**
 
   Sampled: 95.2%
   OverSampled: 99.37%
 
----Confusion Martrices---
+#### **---Confusion Martrices---**
 
 KEY:
 [['True Positive', 'False Positive'
@@ -56,7 +50,7 @@ KEY:
 [[18649   116]
  [    4   615]]
 
----Classification Tables---
+#### **---Classification Tables---**
 
   ---Sampled---
 
