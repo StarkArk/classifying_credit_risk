@@ -28,7 +28,7 @@ bankruptcies,..., etc.), total debt for the borrower, and the labeled data 'loan
 	* debt_to_income &ensp; &ensp; -The Ratio of Borrower's Monthly Debt to their Income
 	* num_of_accounts &emsp; &nbsp; -Total number of borrower accounts
 	* derogatory_marks &emsp; -Number of missed payments, bankruptcies,..., etc. 
-	* total_debt  <center>-Total Amount of Debt carried by the borrower</center>
+	* total_debt                   Total Amount of Debt carried by the borrower
 
 &emsp; &ensp; &nbsp; &ensp;
 
