@@ -16,9 +16,19 @@ bankruptcies,..., etc.), total debt for the borrower, and the labeled data 'loan
 
 [Lending Data](https://github.com/StarkArk/classifying_credit_risk/blob/main/Credit_Risk/lending_data.csv)
 
-In the data:
-	75,036 are healthy loans
-	2,500 are labeled high-risk 
+#### The data:
+	- 77,536 loans
+	- 2,500 of which are labeled high-risk "1"
+	- 75,536 labeled healthy "0"
+	
+* 7 Features/Columns:
+	* 1) loan_size &emsp; -Loan Amount
+	* 2) interest_rate &emsp; -Interest Rate
+	* 3) borrower_income &emsp; -Borrower's Annual Gross Income
+	* 4) debt_to_income &emsp; -The Ratio of Borrower's Monthly Debt to their Income
+	* 5) num_of_accounts &emsp; -Total number of borrower accounts
+	* 6) derogatory_marks &emsp; -Number of missed payments, bankruptcies,..., etc. 
+	* 7) total_debt &emsp; -Total Amount of Debt carried by the borrower
 
 Logistic Regression was used to train the prediction model. We tested two resampling techniques, one that took the labeled data in the proportion that it had in the sample and another
 that oversampled the 'high risk' loan data.
@@ -90,3 +100,8 @@ loans rather than picking up a marginal number of 'healthy' loans.
 **Overall:** The OverSampled Method was superior, with a higher balanced accuracy (99.4% vs 95.2%) and fewer False Negatives (4 vs 56), correctly labelling more of the high risk loans 
 (615 vs 563).
 
+## Refererences
+
+1. Milliman's Mortgage Default Index: [2023-Q3](https://www.milliman.com/en/insight/milliman-mortgage-default-index-2023-q3).
+2. Benefits of Machine Learning on Mortgage Lending. [Link](https://plat.ai/blog/machine-learning-mortgage-lending/)
+3. Data for this dataset was provided by edX Boot Camps LLC.
