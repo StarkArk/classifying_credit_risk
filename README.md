@@ -30,8 +30,8 @@ bankruptcies,..., etc.), total debt for the borrower, and the labeled data 'loan
 	* derogatory_marks &emsp; -Number of missed payments, bankruptcies,..., etc. 
 	* total_debt &emsp; &ensp; &nbsp; &ensp; -Total Amount of Debt carried by the borrower
 
-&nbsp;2
-&nbspnbsp;4
+&nbsp; 2
+&nbspnbsp; 4
 
 Logistic Regression was used to train the prediction model. We tested two resampling techniques, one that took the labeled data in the proportion that it had in the sample and another
 that oversampled the 'high risk' loan data.
