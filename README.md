@@ -22,13 +22,13 @@ bankruptcies,..., etc.), total debt for the borrower, and the labeled data 'loan
 	- 75,536 labeled healthy "0"
 	
 * 7 Features/Columns:
-	* loan_size &emsp;&emsp; &ensp; &nbsp; -Loan Amount
-	* interest_rate &emsp; &ensp; &nbsp; -Interest Rate
+	* loan_size &emsp; &ensp; &nbsp; &ensp; &nbsp; -Loan Amount
+	* interest_rate &emsp; &ensp; &nbsp; &ensp; &nbsp; -Interest Rate
 	* borrower_income &emsp; &nbsp; -Borrower's Annual Gross Income
-	* debt_to_income &emsp; &ensp; -The Ratio of Borrower's Monthly Debt to their Income
+	* debt_to_income &ensp; &ensp; -The Ratio of Borrower's Monthly Debt to their Income
 	* num_of_accounts &emsp; &nbsp; -Total number of borrower accounts
 	* derogatory_marks &emsp; -Number of missed payments, bankruptcies,..., etc. 
-	* total_debt &emsp;&emsp; &ensp; -Total Amount of Debt carried by the borrower
+	* total_debt &emsp; &ensp; &nbsp; &ensp; -Total Amount of Debt carried by the borrower
 
 Logistic Regression was used to train the prediction model. We tested two resampling techniques, one that took the labeled data in the proportion that it had in the sample and another
 that oversampled the 'high risk' loan data.
