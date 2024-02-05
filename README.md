@@ -18,7 +18,7 @@ bankruptcies,..., etc.), total debt for the borrower, and the labeled data 'loan
 
 #### The data:
 * 77,536 loans
-* 2,500 of which are labeled high-risk "1"
+* 2,500 labeled high-risk "1"
 * 75,536 labeled healthy "0"
 	
 * 7 Features/Columns:
@@ -43,21 +43,21 @@ Analysis: [Notebook](https://github.com/StarkArk/classifying_credit_risk/blob/ma
 
 #### **---Balanced Accuracy---**
 
-  Sampled: 95.2% <br>
-  OverSampled: 99.37%
+&ensp;   Sampled: 95.2% <br>
+&ensp;   OverSampled: 99.37%
 
 #### **---Confusion Martrices---**
 
-KEY:
-[['True Positive', 'False Positive'] <br>
- ['False Negative', 'True Positive']]
+&ensp; KEY:
+&emsp; [['True Positive', 'False Positive'] <br>
+&emsp;  ['False Negative', 'True Positive']]
 
-  ---Sampled---
+&ensp;   ---Sampled---
 
-[[18663,   102] <br>
- [   56,   563]]
+&emsp; [[18663,   102] <br>
+&emsp;  [   56,   563]]
 
-  ---OverSampled---
+&ensp;   ---OverSampled---
 
 [[18649,   116] <br>
  [    4,   615]]
@@ -93,9 +93,9 @@ KEY:
 **Healthy Loans:** The model predictions, sampled and oversampled, were accurate with relatively few false positives(Precision 1.00) and false negatives(Recall .99). 
 
 **Ordinary Sampled Method:** The predictions for high risk loans were less accurate with relatively more false positives(Precision .85) and false negatives(Recall .91). Ideally, we would 
-like to reduce the false negatives for high risk loans to find more of the high-risk loans that lenders would prefer to avoid.
+like to reduce the false negatives to find more of the high-risk loans that lenders would prefer to avoid.
 
-**OverSampled Method:** Oversampling significantly reduced the # of false negatives, from 56 down to 4. Successfully detecting more high-risk loans compared to the less balanced original 
+**OverSampled Method:** Oversampling significantly reduced the number of false negatives, from 56 down to 4. Successfully detecting more high-risk loans compared to the less balanced original 
 training sample (615 vs 563). False positives, loans eroneously labeled 'high-risk', did increase. This is acceptable given that a bank should be more focused on avoiding/reducing bad 
 loans rather than picking up a marginal number of 'healthy' loans.
 
