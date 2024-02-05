@@ -59,12 +59,12 @@ Analysis: [Notebook](https://github.com/StarkArk/classifying_credit_risk/blob/ma
 
 &ensp;   ---OverSampled---
 
-[[18649,   116] <br>
- [    4,   615]]
+&emsp; [[18649,   116] <br>
+&emsp;  [    4,   615]]
 
 #### **---Classification Tables---**
 
-  ---Sampled---
+&ensp;   ---Sampled---
 
                       precision    recall  f1-score   support
 
@@ -76,7 +76,7 @@ Analysis: [Notebook](https://github.com/StarkArk/classifying_credit_risk/blob/ma
         weighted avg       0.99      0.99      0.99     19384
 
 
-  ---OverSampled---
+&ensp;   ---OverSampled---
 
                       precision    recall  f1-score   support
 
